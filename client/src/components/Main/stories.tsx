@@ -1,9 +1,16 @@
 /* eslint-disable prettier/prettier */
+import { Story, Meta } from '@storybook/react/types-6-0'
 import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main
+  component: Main,
+  args: {
+    title: 'title default',
+    description: 'description default'
+  } as Meta
 }
 
-export const Basic = () => <Main />
+export const Basic: Story = (args) => <Main {...args} />
+
+
