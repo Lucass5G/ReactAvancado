@@ -1,11 +1,11 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "react-avancado-boilerplate",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start & SET NODE_ENV=production",
     "test": "jest",
     "test:watchAll": "yarn test --watchAll",
     "storybook": "start-storybook -s ./public -p 6006",
