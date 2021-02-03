@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start & SET NODE_ENV=production",
     "test": "jest",
-    "test:watchAll": "yarn test --watchAll",
+    "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
